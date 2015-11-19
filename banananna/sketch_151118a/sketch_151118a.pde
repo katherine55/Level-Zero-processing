@@ -9,7 +9,8 @@ void draw(){
   int blue = 5;
   for(int i = 0; i <100; i++){
     fill(red, green, blue);
-  text("banana", 230, y);
+ 
+ text("banana", 230, y);
   y+=15;
   red -=7;
   green-=20;
